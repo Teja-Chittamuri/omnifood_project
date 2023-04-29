@@ -16,9 +16,17 @@ Steps:
     sudo apt install apache2 -y 
 
 3. Check the status of the apache2 webserver using the cmd 
+
     systemctl status apache2 
 3. Clone the src code from the Github to EC2 instance using cmd 
+
     git clone url 
-4. Copy the src to apache2 webserver home dierctory (/var/www/html).
-5. Add a HTTP Security Group Rule to allow traffic on Port 80.
-6. Access our application using Public IP Address. ( https://54.219.38.60:80 )
+4. Copy the src to apache2 webserver home dierctory 
+
+   (/var/www/html).
+  
+6. Add a HTTP Security Group Rule to allow traffic on Port 80.
+
+8. Access our application using Public IP Address. 
+
+   ( https://54.219.38.60:80 )
